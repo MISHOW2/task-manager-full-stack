@@ -8,7 +8,12 @@ app.use(express.json()); // ✅ Fix: Parse incoming JSON requests
 
 // Get all tasks
 app.get('/tasks', (req, res) => {
-    res.status(200).json({ success: true, data: tasks });
+    if (!tasks) {
+        res.status(404).json({success:false, message:'no was data found'})
+    }else{
+        res.status(200).json({ success: true, data: tasks });
+    }
+    
 });
 
 // Get task by ID

@@ -9,6 +9,7 @@ A simple full-stack task manager application built using React for the front-end
 - **Update tasks**: Modify an existing task's title, description, and completion status.
 - **Delete tasks**: Remove a task from the system.
 
+
 ## Tech Stack
 
 - **Front-end**: React

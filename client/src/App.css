@@ -17,3 +17,8 @@ button::after{
   cursor: pointer;
   background-color: #283dc7;
 }
+
+Link{
+  text-decoration: none;
+  color: black;
+}

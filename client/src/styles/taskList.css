@@ -20,3 +20,12 @@
 .task-description{
   font-weight: 300;
 }
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  background-color: #350202;
+}
