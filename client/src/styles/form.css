@@ -1,0 +1,25 @@
+form{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 10px;
+}
+
+input,textarea{
+  height: 39px;
+  border-radius: 10px;
+  border: 1px solid;
+  font-size: 14px;
+}
+
+form button{
+  width: 91px;
+  height: 39px;
+  background-color: #949DD9;
+  border: none;
+}
+
+label{
+  display: flex;
+  align-items: center;
+}

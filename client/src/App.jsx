@@ -1,11 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import axios from 'axios';
+import { useState } from 'react';
+import TaskForm from './components/TaskForm'
+import TaskItem from './components/TaskItems';
+import TaskList from './components/TaskList';
+import { Route } from 'react-router-dom';
+const App = () => {
 
-function App() {
-  const [count, setCount] = useState(0)
 
-}
+  return (
+    <div>
+      <h1>Task Manager</h1>
+        <div className="app">
+          <div>
+            <TaskForm/>
+          <a href="">View More tasks</a>
+          </div>
+          <TaskList/>
+        
+        </div>
+    </div>
+  );
+};
 
-export default App
+export default App;

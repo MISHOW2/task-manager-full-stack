@@ -1,22 +1,23 @@
-const tasks = [
+let tasks = [
   {
-    "id": 1,
-    "title": "Complete Node.js project",
-    "description": "Finish the task manager API using Express",
-    "completed": false
+    id: 1,
+    title: "Finish React Project",
+    description: "Complete the task manager app using React and Node.js.",
+    completed: false
   },
   {
-    "id": 2,
-    "title": "Learn Mongoose",
-    "description": "Understand how to connect MongoDB with Express",
-    "completed": false
+    id: 2,
+    title: "Write Blog Post",
+    description: "Write a blog post about the importance of learning full-stack development.",
+    completed: false
   },
   {
-    "id": 3,
-    "title": "Write API documentation",
-    "description": "Document all endpoints for the task manager API",
-    "completed": true
-  }
+    id: 3,
+    title: "Buy Groceries",
+    description: "Get milk, eggs, bread, and vegetables from the store.",
+    completed: true
+  },
+
 ];
 
-module.exports = tasks;
+module.exports = tasks

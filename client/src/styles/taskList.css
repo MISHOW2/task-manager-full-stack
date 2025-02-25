@@ -1,0 +1,22 @@
+.task-list-items{
+  width: 451px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+
+.task-item{
+  list-style: none;
+  border-radius: 15px;
+  border: 1px solid #C86666 ;
+  padding: 10px;
+  background-color: #FCF7F7;
+}
+
+.task-title{
+  font-size: 16px;
+}
+.task-description{
+  font-weight: 300;
+}
